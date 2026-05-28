@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f6f9;
+}
+
+h1{
+    text-align:center;
+    color:#333;
+}
+
+input{
+    width:90%;
+    padding:15px;
+    border:1px solid #000000fb;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+/* layout principal */
+.container{
+    display:flex;
+    height:100vh;
+}
+
+/* sidebar */
+.sidebar{
+    width: 330px;
+    background:white;
+    padding:30px;
+    border-right:1px solid #ddd;
+
+    display:flex;
+    flex-direction:column;
+}
+
+/* contenido */
+.content{
+    flex:1;
+    padding:50px;
+}
+
+/* botones */
+button{
+    width:100%;
+    padding:15px;
+    border: 1px solid #000000fb;
+    border-radius:25px;      
+    margin-top:10px;         
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* colores */
+.green{
+    background:#41AB2C;
+    color:white;
+}
+
+.red{
+    background:#F72700;
+    color:white;
+}
+
+/* botón admin separado */
+.admin-btn{
+    background:#34495e;
+    color:white;
+    border-top:2px solid #ccc;
+    border-radius:25px;      /* também actualizado */
+}
+
+/* empujar botón hacia abajo */
+.bottom-btn{
+    margin-top:auto;
+    margin-bottom:20px;
+}
+
+/* logo */
+.sidebar img{
+    mix-blend-mode: darken;
+    width: 120px;
+    height: auto;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+/* tabla */
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border:1px solid #000000fb;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#ddd;
+}
+
